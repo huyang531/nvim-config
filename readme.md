@@ -1,12 +1,14 @@
-# This is my NeoVim setup.
+# nvim-config
+
+This repository contains my NeoVim setup.
 
 ## Getting Started
 
-1. Upgrade your shell following [this section](#UpgradeShell)
+1. Upgrade your shell (instructions at the end of this file)
 
 1. Clone this repository to `~/.config/nvim`
 
-1. Follow the guides below to install external dependencies and make sure you are using the latest NeoVim release
+1. Follow the instructions below to install external dependencies and make sure you are using the latest NeoVim release
 
 1. Start using NeoVim!
 
