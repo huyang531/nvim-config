@@ -26,15 +26,13 @@ Please also refer to their GitHub Repo for other dependencies such as `fd`.
 
 You might also want to upgrade your Shell for the optimal NeoVim experience.
 
-To do that, consider installing the following.
+To do that, consider the following:
 
 1. Install and set `zsh` as your default shell
 
 1. Install [Oh-my-zsh](https://ohmyz.sh/#install)
 
-1. Install and setup [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-
-> You might also need to install a Nerd Font for this
+1. Install and setup [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (You might also need to install a Nerd Font for this)
 
 1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
