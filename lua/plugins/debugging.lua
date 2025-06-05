@@ -8,7 +8,7 @@ return {
 		config = function()
 			local dap, dapui = require("dap"), require("dapui")
 
-			-- setup dap
+			-- setup dap keymap
 			vim.keymap.set("n", "<F5>", dap.continue, {})
 			vim.keymap.set("n", "<F10>", dap.step_over, {})
 			vim.keymap.set("n", "<F11>", dap.step_into, {})
@@ -50,6 +50,15 @@ return {
 			dap.listeners.before.event_exited.dapui_config = function()
 				dapui.close()
 			end
+
+			-- setup cpp debugger (lldb)
+			dap.configuration.cpp = {
+				{
+					name = "Launch",
+					type = "lldb",
+					request = "launch",
+				},
+			}
 
 			-- setup go debugger
 			require("dap-go").setup()
